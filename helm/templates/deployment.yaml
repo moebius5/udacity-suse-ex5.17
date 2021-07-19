@@ -27,5 +27,4 @@ spec:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.pullPolicy }}
         name: nginx-alpine
-        resources:
-          {{ .Values.resources }} 
+        {{ .Values.resources }} 
