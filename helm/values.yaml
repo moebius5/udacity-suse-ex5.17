@@ -10,8 +10,8 @@ image:
 
 resources:
   requests:
-    cpu: "50m"
-    memory: "256Mi"
+    cpu: 50m
+    memory: 256Mi
 
 service:
   type: ClusterIP
